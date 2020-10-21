@@ -1,6 +1,6 @@
 
   .top {
-      font-size: 12pt;
+      font-size: 1.25vw;
       border-bottom: solid black;
       background-color: #145277;
       color:white;
@@ -12,7 +12,7 @@
   }
 
   .bot {
-      font-size: 10pt;
+      font-size: 1vw;
       border-top: solid black;
       background-color: #145277;
       color: white;
@@ -25,6 +25,12 @@
 
   p {
       font-family: Karla;
+      font-size: 4vw;
+  }
+
+  ul {
+      font-family: Karla;
+      font-size: 4vw;
   }
 
   a {
@@ -58,17 +64,13 @@
 
   .name {
       font-weight: bold;
-      font-size: 16pt;
+      font-size: 2vw;
       border-right: solid black;
       padding-right: 2%;
   }
 
-  ul {
-      font-size: 14pt;
-  }
-
   .display-4 {
-      font-size: 45pt;
+      font-size: 6vw;
       border-bottom: solid black;
       padding-top: 0%;
   }
