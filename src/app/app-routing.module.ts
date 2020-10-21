@@ -15,7 +15,8 @@ const routes: Routes = [
   { path:  'skills', component: SkillsComponent, pathMatch: 'full' },
   { path:  'current_employment', component: CurrentEmploymentComponent, pathMatch: 'full' },
   { path:  'previous_employment', component: PreviousEmploymentComponent, pathMatch: 'full' },
-  { path:  'portfolio', component: PortfolioComponent, pathMatch: 'full' }
+  { path:  'portfolio', component: PortfolioComponent, pathMatch: 'full' },
+  { path:  '', component: IntroductionComponent, pathMatch: 'full' },
 ];
 
 @NgModule({
